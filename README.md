@@ -28,7 +28,6 @@ Fork and clone this repository. Complete all of the following per day. Everyday,
 
 * In the terminal, inside of your project folder, do the following.
 
-  -
   * ``npm init`` This will initialize your folder with a package.json file.
   * ``npm install --save cors express body-parser`` This will load some dependancies that will be needed for the project. This will also create a node_modules folder.
   * ``npm install -g nodemon`` or ``sudo npm install -g nodemon`` if that doesn't work. Nodemon will act similarly to live-server, but it will allow us to run both the front and back end.
@@ -37,10 +36,10 @@ Fork and clone this repository. Complete all of the following per day. Everyday,
 
 * Okay, its time to start building.  Go ahead and run through all of the code needed to setup our server in the index.js file. Make sure you include each of the following.
 
-  -
-  * -Require body-parser, cors, and express
-  * -Instantiate express, cors, body-parser.json, body-parser.urlencoded, and set up express.static to run your public folder, so that nodemon works with your front end too.
-  * -Setup your listener on any available port. Normally, we use anything between 3000 and 9000.
+
+  * Require body-parser, cors, and express
+  * Instantiate express, cors, body-parser.json, body-parser.urlencoded, and set up express.static to run your public folder, so that nodemon works with your front end too.
+  * Setup your listener on any available port. Normally, we use anything between 3000 and 9000.
 
 * Next set up your end points. This would include your get, post, put, delete functions.
 
@@ -52,11 +51,10 @@ Fork and clone this repository. Complete all of the following per day. Everyday,
 
 And if you have time, try to finish each of the following.
 
-  -
-  * -Setup your html and css.
-  * -Make it so that you can see your data display on the view.
-  * -Make it so that you can interact with your data from the front end.
-  * -This includes getting your data and displaying it, posting new data, changing existing data, and deleting existing data.
+  * Setup your html and css.
+  * Make it so that you can see your data display on the view.
+  * Make it so that you can interact with your data from the front end.
+  * This includes getting your data and displaying it, posting new data, changing existing data, and deleting existing data.
 
 ##Copyright
 
