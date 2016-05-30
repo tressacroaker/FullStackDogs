@@ -19,6 +19,7 @@ Fork and clone this repository. Complete all of the following per day. Everyday,
 
 ```project
       index.js
+      dogs.js
       .gitignore
       public
         index.html
@@ -34,14 +35,30 @@ Fork and clone this repository. Complete all of the following per day. Everyday,
 
 * In the .gitignore file, simply type node_modules. This will ignore the node_modules folder when performing git functions. These are very large folders that we do not want loading into GitHub.
 
+* Also, before we get started, lets plug some dummy data into the dogs.js file, so we can have a starting point. For my file, I used this.
+
+```
+module.exports = [{ //data reserve
+  name: "Fido",
+  breed: "Doberman"
+},
+{
+  name: "Toby",
+  breed: "Beagle"
+},
+{
+  name: "Max",
+  breed: "Bulldog"
+}];
+```
+
 * Okay, its time to start building.  Go ahead and run through all of the code needed to setup our server in the index.js file. Make sure you include each of the following.
 
-
-  * Require body-parser, cors, and express
+  * Require body-parser, cors, and express. And don't forget to require your dummy data in the dogs.js file.
   * Instantiate express, cors, body-parser.json, body-parser.urlencoded, and set up express.static to run your public folder, so that nodemon works with your front end too.
   * Setup your listener on any available port. Normally, we use anything between 3000 and 9000.
 
-* Next set up your end points. This would include your get, post, put, delete functions.
+* Next set up your end points. This would include your get, post, put, delete functions. In each function, pull in the dummy data from the dogs.js file, and depending on which end point you are working on, display or manipulate the data.
 
 * When you have made it to here, test your code on Postman to ensure that your end points are working properly.
 
