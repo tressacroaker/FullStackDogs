@@ -7,13 +7,13 @@ The purpose of this week long project is practice creating API's using jQuery, s
 
 ##Directions
 
-###Day 2
+###Day 3
 
 Yesterday, we created setup some controllers to simplify our index.js file. We also played with express-session to maintain logged in user sessions in our site. Today, we will get into persistent data using MongoDB databases.
 
 * First things first, let's get rid of anything session related. Delete the config folder, remove config from the .gitignore, remove the express-session require, remove the express-session dependancy on the package.json, and remove all of the user files.
 
-* Next, go ahead and install both mongojs and mongodb using ``npm install --save mongojs mongodb``.
+* Next, go ahead and install both mongojs and mongodb using ``npm install --save mongojs mongodb``. Also, remember to set up another tab in your terminal and run mongod.
 
 * In your dogCtrl.js file, require mongojs and the ObjectId method in mongodb.
 
