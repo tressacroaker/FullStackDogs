@@ -31,7 +31,7 @@ Fork and clone this repository. Complete all of the following per day. Everyday,
 
   * ``npm init`` This will initialize your folder with a package.json file.
   * ``npm install --save cors express body-parser`` This will load some dependancies that will be needed for the project. This will also create a node_modules folder.
-  * ``npm install -g nodemon`` or ``sudo npm install -g nodemon`` if that doesn't work. Nodemon will act similarly to live-server, but it will allow us to run both the front and back end.
+  * If you do not already have nodemon installed, run ``npm install -g nodemon`` or ``sudo npm install -g nodemon`` if that doesn't work. Nodemon will act similarly to live-server, but it will allow us to run both the front and back end.
 
 * In the .gitignore file, simply type node_modules. This will ignore the node_modules folder when performing git functions. These are very large folders that we do not want loading into GitHub.
 
