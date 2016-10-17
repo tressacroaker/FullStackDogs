@@ -1,0 +1,24 @@
+{
+  "name": "fullstackdogs",
+  "version": "1.0.0",
+  "description": "<img src=\"http://montanacodeschool.com/wp-content/uploads/2016/08/MCS_LOGO_v1-1.png\" width=\"200\" align=\"right\"/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tressacroaker/FullStackDogs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tressacroaker/FullStackDogs/issues"
+  },
+  "homepage": "https://github.com/tressacroaker/FullStackDogs#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0"
+  }
+}
